@@ -1,0 +1,20 @@
+li .nav-buttons {
+    transition: transform 0.5s ease;
+}
+.nav-buttons:hover  {
+    transform: scale(1.1);
+}
+@keyframes change-text-size {
+    25% {
+        font-size: 2em;
+    }
+    50% {
+        font-size: 3em;
+    }
+    100% {
+        font-size: 2em;
+    }
+}
+.nav-buttons:active {
+    animation: change-text-size 400ms ease infinite;
+}
