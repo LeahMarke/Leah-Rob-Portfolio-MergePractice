@@ -1,0 +1,13 @@
+.nav-buttons:hover {
+  transform: scale(1.05);
+  /* transform: scale(1.5); */
+}
+.nav-buttons:active {
+  animation: change-font 1s ease infinite;
+}
+
+@keyframes change-font {
+  50% {
+    font-size: 40px;
+  }
+}
