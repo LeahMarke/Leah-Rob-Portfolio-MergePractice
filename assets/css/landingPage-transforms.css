@@ -1,3 +1,6 @@
+
+
+
 li .nav-buttons {
     transition: transform 0.5s ease;
 }
@@ -18,3 +21,4 @@ li .nav-buttons {
 .nav-buttons:active {
     animation: change-text-size 400ms ease infinite;
 }
+
